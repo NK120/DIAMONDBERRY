@@ -1,0 +1,1 @@
+web gunicorn diamondberry.wsgi:application --log-file -

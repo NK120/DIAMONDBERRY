@@ -1,0 +1,56 @@
+{% load static %}
+{% csrf_token %}
+{% static "imgs" as baseUrl %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Diamond Berry Investment</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{%static 'vendors/themify-icons/css/themify-icons.css' %}">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="{%static 'css/leadmark.css' %}">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+  <!-- Page Header -->
+  <header class="header-mini"  > 
+    <div class="header-title">Components</div> 
+    <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Components</li>
+       </ol>
+    </nav>
+ </header> <!-- End Of Page Header -->
+   
+
+
+
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>,Created By <a href="https://www.devcrud.com" target="_blank">eDuSolutions.</a>  All rights reserved </p>     
+            </footer>
+            <!-- End of Page Footer -->  
+        </div>
+    </section>
+	
+	<!-- core  -->
+    <script src="{%static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{%static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{%static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Isotope -->
+    <script src="{%static 'vendors/isotope/isotope.pkgd.js' %}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{%static 'js/leadmark.js' %}"></script>
+
+</body>
+</html>
